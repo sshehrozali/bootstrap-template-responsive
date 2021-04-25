@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.positionCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
+
+/* Media Queries */
+/* Phones and Small Screens */
+@media screen and (max-width: 768px) {
+    #heroSection{
+        height: 100vh;
+    }
+}
+
+/* Medium Screens and Tablets */
+@media screen and (min-width: 768px) {
+    #heroSection, #features{
+        padding: 90px;
+    }
+}
+
+ /* Laptops and Large Screens */
+@media screen and (min-width: 1200px) {
+    #heroSection, #features{
+        padding: 150px;
+    }
+}
+
+/* Extra Large Screens */
+@media screen and (min-width: 1528px) {
+    #heroSection, #features{
+        padding: 150px;
+    }
+}
